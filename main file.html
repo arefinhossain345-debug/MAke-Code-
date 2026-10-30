@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev Ajmol - Scripts & Source Code Store</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #0d1117;
+            color: #c9d1d9;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, #1f242d, #161b22);
+            padding: 40px 20px;
+            text-align: center;
+            border-bottom: 2px solid #30363d;
+        }
+
+        header h1 {
+            color: #58a6ff;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            color: #8b949e;
+            font-size: 1.1rem;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 1.8rem;
+            margin-bottom: 30px;
+            color: #f0f6fc;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+        }
+
+        .card {
+            background-color: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 12px;
+            padding: 20px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 24px rgba(88, 166, 255, 0.15);
+            border-color: #58a6ff;
+        }
+
+        .card-title {
+            color: #58a6ff;
+            font-size: 1.4rem;
+            margin-bottom: 10px;
+        }
+
+        .card-desc {
+            color: #8b949e;
+            font-size: 0.95rem;
+            margin-bottom: 20px;
+        }
+
+        .price-tag {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #3fb950;
+            margin-bottom: 15px;
+        }
+
+        .btn-group {
+            display: flex;
+            gap: 10px;
+        }
+
+        .btn {
+            flex: 1;
+            padding: 10px;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+            font-size: 0.9rem;
+            transition: 0.2s;
+        }
+
+        .btn-demo {
+            background-color: #21262d;
+            color: #c9d1d9;
+            border: 1px solid #30363d;
+        }
+
+        .btn-demo:hover {
+            background-color: #30363d;
+        }
+
+        .btn-buy {
+            background-color: #238636;
+            color: #ffffff;
+        }
+
+        .btn-buy:hover {
+            background-color: #2ea043;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #161b22;
+            border-top: 1px solid #30363d;
+            margin-top: 50px;
+            color: #8b949e;
+        }
+
+        footer a {
+            color: #58a6ff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1><i class="fa-solid fa-code"></i> Dev Ajmol Script Store</h1>
+        <p>আপনার প্রজেক্টের জন্য সেরা স্ক্রিপ্ট, বট এবং সোস কোড খুঁজুন</p>
+    </header>
+
+    <div class="container">
+        <h2 class="section-title">উপলব্ধ স্ক্রিপ্ট ও সোর্স কোড</h2>
+
+        <div class="grid">
+            <!-- Card 1 -->
+            <div class="card">
+                <div>
+                    <h3 class="card-title">Free Fire Top-Up Web Script</h3>
+                    <p class="card-desc">সিম্পল ও ফাস্ট রেসপন্সিভ ম্যানুয়াল টপ-আপ ওয়েবসাইট স্ক্রিপ্ট। টেলিগ্রাম পেমেন্ট কনফার্মেশন সাপোর্টসহ।</p>
+                </div>
+                <div>
+                    <div class="price-tag">৳ ৩০০ BDT</div>
+                    <div class="btn-group">
+                        <a href="#" class="btn btn-demo" target="_blank">লাইভ ডেমো</a>
+                        <a href="https://t.me/YOUR_TELEGRAM_USERNAME" class="btn btn-buy" target="_blank"><i class="fa-brands fa-telegram"></i> বাই করুন</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="card">
+                <div>
+                    <h3 class="card-title">Google Maps Scraper Bot</h3>
+                    <p class="card-desc">পাইথন দিয়ে তৈরি গুগল ম্যাপস থেকে ডেটা ও লিড এক্সট্র্যাক্ট করার অটোমেটিক বট। সাথে এক্সেল অটো-ফিট সাপোর্ট।</p>
+                </div>
+                <div>
+                    <div class="price-tag">৳ ৫০০ BDT</div>
+                    <div class="btn-group">
+                        <a href="#" class="btn btn-demo" target="_blank">লাইভ ডেমো</a>
+                        <a href="https://t.me/YOUR_TELEGRAM_USERNAME" class="btn btn-buy" target="_blank"><i class="fa-brands fa-telegram"></i> বাই করুন</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="card">
+                <div>
+                    <h3 class="card-title">Developer Portfolio Template</h3>
+                    <p class="card-desc">ডেভেলপারদের জন্য ক্লিন, ফাস্ট এবং ডার্ক মোড পোর্টফোলিও টেমপ্লেট। সম্পূর্ণ কাস্টমাইজযোগ্য।</p>
+                </div>
+                <div>
+                    <div class="price-tag">৳ ২০০ BDT</div>
+                    <div class="btn-group">
+                        <a href="#" class="btn btn-demo" target="_blank">লাইভ ডেমো</a>
+                        <a href="https://t.me/YOUR_TELEGRAM_USERNAME" class="btn btn-buy" target="_blank"><i class="fa-brands fa-telegram"></i> বাই করুন</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2026 Dev Ajmol. All Rights Reserved. | Contact via <a href="https://t.me/YOUR_TELEGRAM_USERNAME" target="_blank">Telegram</a></p>
+    </footer>
+
+</body>
+</html>
